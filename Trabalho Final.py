@@ -141,7 +141,7 @@ def AlterarCompromissos():
                 n1 = NumConsultasA1[i]
 
                 print(f'''
-ID: {NumConsultasA1[i]+1}°
+ID: {NumConsultasA1[n1]+1}°
 Descrição: {Lista[n1].Descricao}
 Data: {Lista[n1].Data}
 Hora: {Lista[n1].Hora}
@@ -251,4 +251,4 @@ Ferramentas
         break
 
     else:
-        print('Erro. Tente novamente!')
+        print('\nErro. Tente novamente!')
