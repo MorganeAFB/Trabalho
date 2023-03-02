@@ -1,3 +1,6 @@
+# GitHub:  https://github.com/MorganeAFB/Trabalho/blob/main/Trabalho%20Final.py
+
+
 # Variaveis
 
 Lista = []
@@ -54,7 +57,7 @@ def ConsultaCompromissos():
 
             for i in range(len(Lista)):
 
-                # Salvar os números dos vetores onde estão presentes as informações
+                # Salvar o local do vetor onde estão presentes as informações da função
 
                 if ((DataA1 in Lista[i].Data) == True):
                     NumConsultasA1.append(i)
@@ -83,7 +86,7 @@ Duração: {Lista[n1].Duracao}
 
             for i in range(len(Lista)):
 
-                # Salvar os números dos vetores onde estão presentes as informações
+                # Salvar o local do vetor onde estão presentes as informações da função
 
                 if ((DataA1 in Lista[i].Data) == True) and ((HoraA1 in Lista[i].Hora) == True):
                     NumConsultasA1.append(i)
