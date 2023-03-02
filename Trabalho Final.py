@@ -27,7 +27,7 @@ def IncluirCompromissos():
         Lista.append(C)
 
         Continuar1 = int(
-            input('\nDeseja incluir mais compromissos? 1 - Sim, 0 - Não: '))
+            input('\nDeseja incluir mais compromissos? 0 - Não, ou qualquer número para sim: '))
 
         if Continuar1 == 0:
             break
